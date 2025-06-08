@@ -19,9 +19,9 @@ class Solution {
                     right--;
                 }
                 else if(sum>0)
-                left++;
-                else
                 right--;
+                else
+                left++;
             }
         }
         return new ArrayList<>(result);
