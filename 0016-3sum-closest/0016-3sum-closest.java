@@ -23,8 +23,9 @@ class Solution {
 
             int diffToTarget = Math.abs(sum-target);
             if (diffToTarget < minDifference){
-                minDifference = diffToTarget;
                 resultsum = sum;
+                minDifference = diffToTarget;
+                
                 
             }
         }
